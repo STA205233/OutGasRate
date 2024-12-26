@@ -2,11 +2,12 @@
 
 ## Information
 
-Author: Shota Arai
-Date: 2024/12/26
-Version 2.0
+- Author: Shota Arai
+- Date: 2024/12/26
+- Version 2.0
 
 ## Requirements
+
 - Python
 - Numpy
 - Matplotlib

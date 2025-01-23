@@ -46,7 +46,7 @@ def fetchData(data_name: str, func: Callable = lambda x: x, ip: str = "192.168.1
     if data is None:
         return None
     unixtime = data.unixtime
-    ch_data = func(data.sections[0].contents[data_name])
+    ch_data = func(data.sections["GL840"].contents[data_name])
     return unixtime, ch_data
 
 
